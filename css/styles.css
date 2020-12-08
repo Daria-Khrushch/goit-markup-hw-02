@@ -1,0 +1,27 @@
+/* цвет основного текста color: #212121;*/
+/* цвет вторичного текста color: #757575;*/
+/* белый color: #FFFFFF;*/
+/* цвет телефона и мыла в футере color: rgba(255, 255, 255, 0.6);*/
+/* цвет нажатой ссылки и лого акцент color: #2196F3; */
+body {
+  color: #212121;
+}
+.logo {
+  color: #212121;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logostart {
+  color: #2196f3;
+}
+.site-nav a {
+  list-style: none;
+  color: #212121;
+}
+.site-nav a:hover {
+  color: #2196f3;
+}
