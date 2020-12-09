@@ -165,14 +165,14 @@ button :focus {
   color: var(--white-color);
 }
 .portfolio-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .portfolio-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 2;
 }
