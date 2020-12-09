@@ -7,6 +7,8 @@
   --main-background-color: #f5f4fa;
 }
 
+/* Стили для index.html */
+
 /* Body */
 .body {
   color: var(--primary-text-color);
@@ -140,4 +142,37 @@ address {
 .contacts:focus,
 .current a {
   color: var(--accent-color);
+}
+
+/* Стили для portfolio.html */
+
+.title-portfolio {
+  display: none;
+}
+button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--main-background-color);
+}
+button:hover,
+button :focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.portfolio-title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
 }
