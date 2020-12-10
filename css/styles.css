@@ -62,7 +62,7 @@
 }
 
 /* Hero */
-.hero {
+.hero h1 {
   color: var(--white-color);
   background-color: var(--header-background-color);
   font-weight: 900;
